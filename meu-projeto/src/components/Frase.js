@@ -1,3 +1,4 @@
+const consultaMotoristas = await fetch('/consultar/motoristas.json')
 function Frase(props){
   return (
     <div>
